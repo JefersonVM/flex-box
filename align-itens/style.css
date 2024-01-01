@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 550px;
+  height: 800px;
+  background-color: purple;
+
+  margin-top: 50px;
+  margin-left: 30px;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.itens {
+  background-color: lightyellow;
+  width: 100px;
+  height: 70px;
+
+  border-radius: 7px;
+  border: 2px solid lightgray;
+
+  font-size: 30px;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}

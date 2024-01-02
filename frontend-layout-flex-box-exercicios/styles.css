@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  width: 14%;
+  height: 100vh;
+  color: #a3a3a3;
+  background-color: #7c187c;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar-header {
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #a3a3a3;
+  flex-grow: 0;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 26px;
+  font-family: sans-serif;
+}
+
+.sidebar-menu {
+  display: flex;
+  border-bottom: 1px solid #a3a3a3;
+  flex-grow: 8;
+  margin-top: 20px;
+}
+
+.sidebar-menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 25px;
+  margin-left: 12px;
+}
+
+.sidebar-menu ul li {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-menu ul li a {
+  text-decoration: none;
+  color: #a3a3a3;
+}
+
+.sidebar-menu img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.sidebar-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  position: relative;
+}
+
+.minha-foto {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid #0fa20f;
+  padding: 1px;
+  margin-top: 20px;
+}
+
+.texto-nome {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.logout img {
+  width: 23px;
+  height: 23px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.logout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 12px;
+  margin-bottom: 10px;
+  font-size: 11px;
+}
